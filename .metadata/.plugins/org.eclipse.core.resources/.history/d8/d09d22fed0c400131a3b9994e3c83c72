@@ -1,0 +1,13 @@
+
+public class Course {
+	private String number;
+	private String title;
+	private String units;
+	public Course(String number, String title, String units) {
+		this.number = number;
+		this.title = title;
+		this.units = units;
+	}
+	
+	
+}

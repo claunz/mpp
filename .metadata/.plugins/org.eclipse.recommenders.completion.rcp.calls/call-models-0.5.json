@@ -1,0 +1,17 @@
+{
+  "C:\\Users\\admin1\\workspace\\Hashtable\\src": {
+    "location": "C:\\Users\\admin1\\workspace\\Hashtable\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\admin1\\workspace\\Hashtable\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\admin1\\workspace\\MPP\\src": {
+    "location": "C:\\Users\\admin1\\workspace\\MPP\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\admin1\\workspace\\MPP\\src\u0027. Skipped."
+  }
+}

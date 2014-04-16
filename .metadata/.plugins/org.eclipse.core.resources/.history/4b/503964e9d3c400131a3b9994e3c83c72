@@ -1,0 +1,43 @@
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class Department {
+
+	private String name;
+	private List<Person> faculties;
+	
+	public Department(String name) {
+		this.name = name;
+		faculties = new LinkedList<Faculty>();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public double getTotalSalary(){
+		double totalSalary = 0;
+		if(faculties != null){
+			for(Faculty fac : faculties){
+				totalSalary += fac.getSalary();
+			}
+		}
+		return totalSalary;
+		
+	}
+	public void showAllMembers(){
+		
+	}
+	public int unitsPerFaclty(){
+		int unitsPerFaculty = 0;
+		return unitsPerFaculty;
+	}
+	public void addFaculty(Faculty faculty){
+		faculties.add(faculty);
+	}
+}

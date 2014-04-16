@@ -1,0 +1,8 @@
+
+public class Faculty extends Person {
+
+	public Faculty(String name, String phone, int age) {
+		super(name, phone, age);
+	}
+
+}
