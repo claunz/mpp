@@ -33,7 +33,6 @@ public class Course {
 	public String getFacultyName() {
 		return facultyName;
 	}
-	//test code
 	public void setFacultyName(String facultyName) {
 		this.facultyName = facultyName;
 	}
