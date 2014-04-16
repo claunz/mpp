@@ -1,0 +1,12 @@
+package Lab3;
+
+public class ShrApplication {
+
+	public static void main(String[] args) {
+		
+		Company company = new Company("Amazon inc.");
+		Department customerServices = new Department("Customer services", "Ontario, California");
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Lab3;
+
+public class Employee {
+	private long employeeId;
+	private String firstName;
+	private String lastName;
+	private String middleInitial;
+	private String birthDate;
+	private String SSN;
+	private double salary;
+}

@@ -1,0 +1,18 @@
+package Lab3;
+
+public class ShrApplication {
+
+	public static void main(String[] args) {
+		
+		Company company = new Company("Amazon inc.");
+		Department customerServices = new Department("Customer services", "Ontario, California");
+		Department shipping	= new Department("Shipping department", "Kansas city, MO");
+		company.addDepartMent(customerServices);
+		company.addDepartMent(shipping);
+		Position pos1 = new Position("Driver", "Shipping truck driver");
+		Position pos2 = new Position("Driver", "Shipping truck driver");
+		shipping.addPosition(pos1);
+		company.print();
+	}
+
+}

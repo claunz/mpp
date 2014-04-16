@@ -1,0 +1,15 @@
+package Lab3;
+
+public class Position {
+	private String title;
+	private String description;
+	
+	public Position(String title) {
+		this.title = title;
+	}
+	public Position(String title, String description) {
+		this.title = title;
+		this.description = description;
+	}
+	
+}
